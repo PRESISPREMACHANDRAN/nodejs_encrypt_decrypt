@@ -1,3 +1,6 @@
+https://youtu.be/iH54fek9xc4?si=lHA66wo9Az7ixgCl
+
+
 //express,body-parser,cors,crypto-js
 
 //to run -> node .\index.js
@@ -8,6 +11,14 @@
 //at postman->body->raw
 // {
 //     "data":"hello programmers",
+//     "key":"secretKey"
+//    }
+   
+
+
+// at postman->body->row
+// {
+//     "encryptedData":"U2FsdGVkX18Tmg1TwOvql9FtdvxBAdW50QKtSvI1YU3N1hUETzp8w1u4JuZzc9DR",
 //     "key":"secretKey"
 //    }
    
