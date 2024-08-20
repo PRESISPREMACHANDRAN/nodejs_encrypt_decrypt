@@ -16,4 +16,15 @@ app.get('/',(req,res)=>[
     res.send("Hello")
 ])
 
+function encrypt(data,key){
+    const cipherText=CryptoJS.AES.encrypt(data,key).toString()
+    return cipherText;
+}
+
+app.post('/encrypt',(req,res)=>{
+    const {data,key}=req.body;
+    const encrypted=encrypt(data,key)
+    res.json({encrypted})
+})
+
 module.exports=app
