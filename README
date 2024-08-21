@@ -7,7 +7,7 @@ https://youtu.be/iH54fek9xc4?si=lHA66wo9Az7ixgCl
 
 // at browser->localhost:5000
 
-
+//at postman post->localhost:5000/encrypt
 //at postman->body->raw
 // {
 //     "data":"hello programmers",
@@ -16,6 +16,7 @@ https://youtu.be/iH54fek9xc4?si=lHA66wo9Az7ixgCl
    
 
 
+//at postman post->localhost:5000/decrypt
 // at postman->body->row
 // {
 //     "encryptedData":"U2FsdGVkX18Tmg1TwOvql9FtdvxBAdW50QKtSvI1YU3N1hUETzp8w1u4JuZzc9DR",
